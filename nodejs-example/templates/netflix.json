@@ -1,0 +1,123 @@
+ {
+  "language_guidelines_exceptions": [
+      {
+          "code": "zh-HK",
+          "cpl": 16,
+          "cps": 9
+      },
+      {
+          "code": "mk-MK",
+          "cpl": 39,
+          "cps": 17
+      },
+      {
+          "code": "en-CA",
+          "cpl": 42,
+          "cps": 20
+      },
+      {
+          "code": "en-GB",
+          "cpl": 42,
+          "cps": 20
+      },
+      {
+          "code": "sr-Cyrl-RS",
+          "cpl": 39,
+          "cps": 17
+      },
+      {
+          "code": "en-US",
+          "cpl": 42,
+          "cps": 20
+      },
+      {
+          "code": "ko-KR",
+          "cpl": 16,
+          "cps": 12
+      },
+      {
+          "code": "zh-TW",
+          "cpl": 16,
+          "cps": 9
+      },
+      {
+          "code": "ja-JP",
+          "cpl": 13,
+          "cps": 4
+      },
+      {
+          "code": "hi-IN",
+          "cpl": 42,
+          "cps": 22
+      },
+      {
+          "code": "ru-RU",
+          "cpl": 39,
+          "cps": 17
+      },
+      {
+          "code": "th-TH",
+          "cpl": 39,
+          "cps": 17
+      },
+      {
+          "code": "en-AU",
+          "cpl": 42,
+          "cps": 20
+      },
+      {
+          "code": "ga-IE",
+          "cpl": 42,
+          "cps": 20
+      },
+      {
+          "code": "ar-SA",
+          "cpl": 42,
+          "cps": 20
+      },
+      {
+          "code": "zh-CN",
+          "cpl": 16,
+          "cps": 9
+      }
+  ],
+  "settings": {
+      "position": "bottom",
+      "alignment": "center",
+      "textAlign": "center",
+      "color": "#fff",
+      "fontFamily": "Arial",
+      "fontSize": "",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "lineHeight": "normal",
+      "strokeColor": "transparent",
+      "strokeWidth": "1px",
+      "textShadow": "#000 0 0 7px",
+      "backgroundColor": "#000",
+      "backgroundAlpha": "rgba(#000, 0.56)"
+  },
+  "template_id": "ef03352e-9357-4165-9da6-7f64bcfba94c",
+  "name": "Netflix",
+  "min_duration": 0.800000011920929,
+  "min_duration_unit": "seconds",
+  "max_duration": 7,
+  "max_duration_unit": "seconds",
+  "max_lines": 2,
+  "lines_limit": 6,
+  "min_gap": 2,
+  "min_gap_unit": "frames",
+  "font_size_ratio": 4.400000095367432,
+  "distance": "10%",
+  "cpl": 42,
+  "cps": 17,
+  "id": 1,
+  "create_date": {
+      "seconds": "1642158598",
+      "nanos": 325000000
+  },
+  "last_update": {
+      "seconds": "1642158598",
+      "nanos": 325000000
+  }
+}

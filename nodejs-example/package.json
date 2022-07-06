@@ -1,0 +1,21 @@
+{
+  "name": "matesub-api-examples",
+  "version": "1.0.0",
+  "author":"Matesub <info@matesub.com>",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "create-project": "node -r dotenv/config cli-scripts/create-project.mjs"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "commander": "^9.0.0",
+    "mime": "^3.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^14.2.0"
+  }
+}
