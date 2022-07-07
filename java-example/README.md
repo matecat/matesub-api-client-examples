@@ -61,3 +61,5 @@ Set the following properties as described:
   the name of the video file you want to upload and associate to the project you are creating. It must be present in the [videos directory](./src/main/resources/videos).
 - `video.file.source.language`:
   the source language of the video file defined in the property above.
+
+If you need to use the test resources (video and reference) copy the desired files from the [resource directory](../resources) to the `videos` and `reference` directories and update the `application.properties` accordingly.
