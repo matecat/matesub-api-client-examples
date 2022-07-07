@@ -4,6 +4,8 @@ This repository contains a collection of clients to integrate with the [MateSub 
 
 In order to use the API you need a [Matesub Enterprise](https://matesub.com) subscription.
 
+Contact us at info@matesub.com for any information. 
+
 ## Java Client
 
 Refer to java-example [documentation](./java-example/README.md).
