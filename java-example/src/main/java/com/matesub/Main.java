@@ -90,7 +90,7 @@ public class Main {
     private static void validateConfiguration() throws Exception {
         System.out.println( "Validating application.properties configuration..." );
 
-        List<String> acceptedMateSubApiBaseUrl = List.of( "https://beta.matesub.com", "https://app.matesub.com" );
+        List<String> acceptedMateSubApiBaseUrl = List.of( "https://app.matesub.com" );
         if( PropertyUtils.mateSubBaseUrl() == null || !acceptedMateSubApiBaseUrl.contains( PropertyUtils.mateSubBaseUrl() ) ){
             throw new RuntimeException( "Bad application.properties configuration. Accepted values for matesub.api.base.url: " + acceptedMateSubApiBaseUrl.stream().reduce( "", ( s, s2 ) -> s.isBlank() ? s2 : s + ", " + s2 ) );
         }

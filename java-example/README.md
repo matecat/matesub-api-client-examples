@@ -46,7 +46,6 @@ Set the following properties as described:
 - `matesub.api.base.url`:
   this should be configured with the MateSub API base endpoint you want to use. There are two environments and related configurations (more likely you'll need to set this property to use production
   environment):
-    - Beta Environment: `https://beta.matesub.com`
     - Production Environment: `https://api.matesub.com`
 - `project.name`:
   the name of the project you are creating.

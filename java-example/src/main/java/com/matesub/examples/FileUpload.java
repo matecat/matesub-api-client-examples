@@ -48,7 +48,7 @@ public class FileUpload {
         RequestBody requestBody = RequestBody.create( file, mediaType );
 
         Request request = new Request.Builder()
-                .url( "https://beta.matesub.com/v1/upload/" + fileName )
+                .url( FILE_UPLOAD_ENDPOINT_URL + fileName )
                 .header( "authorization", "Bearer " + this.jsonWebToken )
                 .put( requestBody )
                 .build();
